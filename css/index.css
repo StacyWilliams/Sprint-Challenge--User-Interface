@@ -82,27 +82,20 @@ p {
     margin-right: 15px;
 }
 .logo {
-    padding:  px;
+    padding: 2px 2px;
     margin-right: 50px;
 }
 
 
 .top-content {
-    display: flex;
-    flex-direction: row; 
-    width: 800px;
-    height: 650px;
-    padding: 0 1%;
-    padding-bottom: 20px; 
-    flex-wrap: wrap;
-      
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    
+    display:flex;
+    justify-content: space-between;
+   
+   
 }
 
-.top-content jumbo {
-    width: 100%;
+.jumbo {
+    width: 800px;
     height: 200px;
     padding: 0 1%;
     padding-bottom: 5px; 
@@ -110,17 +103,51 @@ p {
 }
 
  .Future {
-    width: 350px;
+    display: inline-block;
+    width: 400px;
     height: 250px;
-    border: 1px solid black;
+    
+    padding: 10px;
+    
+}
+.ThePast {
+    width: 400px;
+    height: 250px;
+    
+    padding: 10px;
+}
+
+.topContent {
+    
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;     
+   
+}
+
+ .strategy {
+    
+    border-bottom: 1px solid black;
+ }
+ 
+.how {
+    
+    border-bottom: 1px solid black;
     
 }
 
- .ThePast {
-    width: 250px;
-    height: 250px;
-    border: 1px solid black;
+.places{
+   
+    border-bottom: 1px solid black;
+   
 }
+ 
+.collaboration {
+   
+    border-bottom: 1px solid black;
+  
+}
+
  
 .middle-content {
     margin-bottom: 20px;
@@ -232,4 +259,11 @@ footer nav a {
     text-decoration: none;}
   
   
-  
+ .info {
+     width: 48%;
+     display: inline-block;
+   
+ } 
+ button{
+     margin: 15px;
+ }
